@@ -109,3 +109,11 @@
 #rating-303-text4 {
     margin-left: 5px;
 }
+
+#Product-menu {
+    margin-left: 190px;
+}
+
+.grid-container {
+    display: grid;
+}
