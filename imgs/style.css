@@ -1,6 +1,6 @@
 #top-menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #left_tmenu {
@@ -17,7 +17,8 @@
 #right-tmenu {
     display: flex;
     align-items: center;
-    justify-content: space-around
+    justify-content: right;
+    width: 50%;
 }
 
 #tmenu-search {
@@ -65,7 +66,12 @@
     margin-left: 190px;
 }
 
-#rating-top {
+#rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+#rating-left {
     display: flex;
     justify-content: left;
     align-items: center;
@@ -83,4 +89,23 @@
     margin-left: 5px;
     color: grey;
     font-size: xx-small;
+}
+
+#rating-right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 40px;
+}
+
+#Heart-23 {
+    margin-left: 190px;
+}
+
+#rating-303-text3 {
+    margin-left: 5px;
+}
+
+#rating-303-text4 {
+    margin-left: 5px;
 }
