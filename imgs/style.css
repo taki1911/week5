@@ -1,0 +1,30 @@
+#top-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+#left_tmenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tmenu_item {
+    margin-left: 10px;
+    align-items: center;
+}
+
+#right-tmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+#tmenu-search {
+    width: 50%;
+    align-self: center;
+}
+
+.right_menu-item {
+    align-items: center;
+}
